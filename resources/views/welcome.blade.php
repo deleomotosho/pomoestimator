@@ -43,9 +43,9 @@
 	<body>
 		<div class="container">
 			<div class="content">
-                <div class="author">Pomodoro Estimator by dele.o</div>
-                <div class="title">That's {{ $time  }}</div>
-				<div class="quote">{{ Inspiring::quote() }}</div>
+                <div class="author">Pomodoro Estimator by <a href="//delomotosho.com">dele.o</a></div>
+                <div class="title">That's <strong>{{ $time  }}</strong></div>
+				<div class="quote"><em>{{ Inspiring::quote() }}</em></div>
 			</div>
 		</div>
 	</body>
